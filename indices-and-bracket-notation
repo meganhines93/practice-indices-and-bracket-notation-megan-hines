@@ -1,1 +1,62 @@
+//Task 1
+let topMovies = [
+    ["The Shawshank Redemption","The Godfather","The Dark Knight"],
+    ["The Godfather Part II","12 Angry Men ","The Lord of the Rings: The Return of the King"],
+    ["Schindler's List","The Lord of the Rings: The Fellowship of the Ring","Pulp Fiction"],
+];
 
+//Task 2
+console.log(topMovies[0][0]);
+console.log(topMovies[0][1]);
+console.log(topMovies[0][2]);
+console.log(topMovies[1][0]);
+console.log(topMovies[1][1]);
+console.log(topMovies[1][2]);
+console.log(topMovies[2][0]);
+console.log(topMovies[2][1]);
+console.log(topMovies[2][2]);
+
+//Task 3
+let row;
+let item;
+
+row = 0;
+item = 0;
+console.log(topMovies[row][item]);
+
+
+item = 1;
+console.log(topMovies[row][item]);
+
+
+item = 2;
+console.log(topMovies[row][item]);
+
+row = 1;
+item = 0;
+console.log(topMovies[row][item]);
+
+
+item = 1;
+console.log(topMovies[row][item]);
+
+
+item = 2;
+console.log(topMovies[row][item]);
+
+row = 2;
+item = 0;
+console.log(topMovies[row][item]);
+
+
+item = 1;
+console.log(topMovies[row][item]);
+
+
+item = 2;
+console.log(topMovies[row][item]);
+
+//Task 4
+for (let i = 0; i < topMovies[1].length; i++){
+    console.log(topMovies[1][i]);
+}
